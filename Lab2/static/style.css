@@ -1,0 +1,128 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(231, 232, 238);
+    direction: ltr;
+    line-height: 1.34;
+}
+.facebook-text {
+    position: fixed;
+    top: 100;
+    left: 350;
+}
+.text-img {
+    position: fixed;
+    top: 170;
+    left: 350;
+}
+.big-text {
+    font-size: 1.5em;
+}
+.bottom-box {
+    background-color: white;
+    position:fixed;
+    height: 230;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.shadow {
+    
+    padding: 10px;
+}
+.bottom-text {
+    position: fixed;
+    top: 570;
+    left: 100;
+    color:gray;
+    font-size: 1em;
+    font-family: inherit;
+}
+.bottom-text a {
+    color: gray;
+    text-decoration: none;
+}
+.box a {
+    text-decoration: none;
+}
+
+.line {
+    border: 1px solid rgb(238, 238, 238)
+}
+.line-login {
+    border-bottom: 1px solid #626277;
+    font-size: 1px;
+    margin-bottom: 8px;
+}
+.tab2 { 
+    tab-size: 4; 
+}
+.tab1 {
+    tab-size: 2;
+}
+.medium-text {
+    font-family: Helvetica;
+    font-size: 1em;
+    color:rgb(129, 119, 119);
+    line-height: 1.5em;
+}
+.form {
+    position: relative;
+    padding: 5% 30% 0% 55%;
+}
+.box {
+    position: relative;
+    border: 1px solid rgb(187, 184, 184);
+    background-color: white;
+    top: 15%;
+    left: 55%;
+    height: 300px;
+    width: 332px;
+    border-radius: 7px;
+    padding: 30px;
+}
+input {
+    border: 1px solid rgba(109, 109, 109, 0.836);
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    font-size: 0.9em;
+    margin: 5px 0px 5px 0px;
+}
+#enter-button {
+    background-color: rgb(31, 81, 231);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px ;
+    width: 332px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+#forgot-button {
+    background-color: limegreen;
+    color: rgb(240, 231, 231);
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#forgotten-password {
+    margin: 100px;
+    margin-top: 500px;
+}
+.under-login-text {
+    position: absolute;
+    right:30px;
+    font-size: 0.9em;
+    text-align: center;
+}

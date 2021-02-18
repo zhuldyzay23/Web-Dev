@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  
+  
+}
+.header {
+  background-color: black;
+  padding: 5px ;
+
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.h22{
+  margin:10px;
+  background-color: black;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  border-color: aqua;
+  background-color: white;
+  color: black
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: blueviolet;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: rgb(143, 237, 250);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  
+
+}
+
+ul li.checked {
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: " ";
+  position: absolute;
+  border-color: rgb(19, 151, 228);
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+  transform-box:fill-box;
+  height: 15px;
+  width: 7px;
+
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 12px 12px 12px;
+  
+}
+
+.close:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container-task{
+	position: relative;
+	max-width: 1000px;
+	padding: 10px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  
+  border-color: blueviolet;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 5;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+
+}
+
+.addBtn {
+  padding: 11px;
+  width: 5%;
+  background: rgb(0, 141, 223);
+  color:white;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 15px;
+  box-sizing: border-box;
+
+}
+
+.addBtn:hover {
+  background-color: pink;
+}
